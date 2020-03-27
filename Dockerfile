@@ -1,1 +1,1 @@
-FROM docker pull lightstep/collector:latest
+FROM lightstep/collector:latest
