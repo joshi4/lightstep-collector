@@ -12,3 +12,13 @@ services:
     value: GENERATED_SECRET # not really a secret, but gets us a unique name
   - key: COLLECTOR_BYTES_PER_PROJECT
     value: 1000000000 # 1GB
+# test collector recieves spans correctly. 
+- type: cron
+  name: send-span
+  env: go
+  schedule: "0 0 31 1 *" # we can run it manually from the dashboard
+  repo: "https://github.com/lightstep/lightstep-tracer-go.git"
+  branch: master
+  pullRequestPreviewsEnabled: true
+  startCommand: echo "hi"
+
