@@ -1,6 +1,7 @@
 # Deploy Lightstep Satellite On Render
 
 [Lightstep Satellites](https://docs.lightstep.com/docs/learn-about-satellites) collect 100% of data that instrumented clients and servers emit and use it to assemble traces and compute an aggregate picture of spans.
+
 Use the button below to deploy a Lightstep satellite as a [private service](https://render.com/docs/private-services) on render.
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
