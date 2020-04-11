@@ -8,7 +8,7 @@ Use the button below to deploy a Lightstep satellite as a [private service](http
 
 ## Post Deploy
 1. Login/Signup for a [Lightstep account](https://app.lightstep.com/) to get your own `COLLECTOR_SATELLITE_KEY`
-  * Set this value in the dashboard directly.
+  * Set this value in the Render dashboard directly.
 
 2. Be sure to replace the following environment variables in `render.yml` with values suited for your use-case.
 * COLLECTOR_POOL
