@@ -7,7 +7,7 @@ services:
   - key:  COLLECTOR_SATELLITE_KEY
     sync: false # enter this value directly in the dashboard.
   - key: COLLECTOR_POOL
-    value: dev-staging-canary-or-prod-collector
+    value: dev-collector # change this as appropriate
   - key: COLLECTOR_GUID
     value: GENERATED_SECRET # not really a secret, but gets us a unique name
   - key: COLLECTOR_BYTES_PER_PROJECT
